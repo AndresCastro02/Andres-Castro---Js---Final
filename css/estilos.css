@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;500&family=Titillium+Web:wght@200&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    text-align: center;
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    background-color: yellow;
+    padding: 1em 0em 1em 0em;
+    margin-bottom: 2em;
+}
+
+picture img {
+    height: 6em;
+}
+
+nav div img {
+    border-radius: 5em;
+    height: 5em;
+    border-radius: 5em;
+}
+
+li {
+    list-style-type: none;
+    border-radius: 5em;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 2.5em;
+    border-radius: 5em;
+}
+
+
+
+.dropdown-menu {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    border-radius: 15px;
+}
+.dropdown-item{
+    color: #FFF;
+}
+
+.dropdown-item:hover {
+    background-color: yellow;
+    color: black;
+}
+
+body {
+
+    background-color: #2E4053;
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: baseline;
+}
+
+h2 {
+    font-size: 6em;
+    color: white;
+}
+
+h3 {
+    font-size: 5em;
+    color: white;
+}
+
+h4 {
+    font-size: 4em;
+    color: white;
+}
+
+h5 {
+    font-size: 2em;
+    color: white;
+}
+
+p {
+    font-size: 2em;
+    color: white;
+}
+
+
+#inicio {
+    height: auto;
+    margin-bottom: 10em;
+}
+
+#section1 {
+    background: url(../images/slider112.png) no-repeat center top fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+footer {
+    margin: 0;
+    padding: 0 0 1em 0;
+    background-color: #0e0e0d;
+}
+
+article button {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+    font-size: 3em;
+    color: white;
+    background: black;
+    padding: 0 1em 0 1em;
+    border-radius: 0.5em;
+
+}
+
+article button span {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+#lista {
+    font-size: 2em;
+    color: white;
+    opacity: 70%;
+}
+
+.button122 {
+    border: transparent;
+    border-radius: 5em;
+    font-size: 4em;
+    font: bold;
+    margin: 1em;
+    text-align: center;
+    opacity: 70%;
+    color: white;
+}
+
+.button222 {
+    border: transparent;
+    border-radius: 5em;
+    font-size: 4em;
+    font: bold;
+    margin: 1em;
+    text-align: center;
+    opacity: 70%;
+    color: white;
+}
+
+.Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: transparent;
+    border-radius: 1em;
+    margin: 2em;
+    padding: 1em;
+    background-color: #2E4053;
+    width: 95%;
+    opacity: 80%;
+}
+
+.papita {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.carrito {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: transparent;
+    border-radius: 5em;
+    margin: 2em;
+    padding: 1em;
+    background-color: none;
+    width: 100%;
+    opacity: 70%;
+}
+
+#asd {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#asd2 {
+    margin-top: 5em;
+}
+
+.button11 {
+    margin-top: 2em;
+    opacity: 70%;
+}
+
+input {
+    font-size: 2.5em;
+    border: transparent;
+    border-radius: 0.5em;
+
+}
+
+.form-control {
+    text-align: center;
+    font-size: 2.5em;
+    background-color: #196F3D;
+    border: transparent;
+    border-radius: 0.5em;
+    margin: 1em;
+    opacity: 80%;
+    width: 95%;
+}
+
+.form-control:focus {
+    background-color: #196F3D;
+    opacity: 90%;
+}
+
+.form-control:hover {
+    background-color: #196F3D;
+    opacity: 90%;
+}
+
+.accordion-flush {
+    background-color: #196F3D;
+    opacity: 90%;
+}
+
+.accordion-item {
+    color: #FFF;
+    font-size: 2em;
+    background-color: #196F3D;
+    opacity: 90%;
+}
+
+.accordion-header {
+    background-color: #2E4053;
+    opacity: 90%;
+}
+
+.accordion-button {
+    color: #FFF;
+    font-size: 0.2em;
+    background-color: #2E4053;
+    opacity: 90%;
+}
+
+.accordion-button:hover {
+    color: #FFF;
+    background-color: #2E4053;
+}
+
+.accordion-button:focus {
+    color: #FFF;
+    background-color: #2E4053;
+}
+
+img {
+    border-radius: 2em;
+}
+
+.accordion {
+    border-radius: 2em;
+}
+
+.accordion-button {
+    border-radius: 2em;
+}
+
+.accordion-item {
+    border-radius: 2em;
+}
+
+.accordion-header {
+    border-radius: 2em;
+}
+
+.accordion-flush {
+    border-radius: 2em;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 2em;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 2em;
+}
+
+.accordion-flush .accordion-item:last-child {
+    border-radius: 2em;
+}
+
+.accordion-flush .accordion-item:first-child {
+    border-radius: 2em;
+}
+
+.tarjetas {
+    width: 15em;
+    height: 9em;
+    border-radius: 1em;
+    border: solid;
+    box-shadow: #2E4053;
+}
